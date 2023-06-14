@@ -12,4 +12,5 @@ pip install -r "requirements.txt"
 2) Create Google OAuth 2.0 Desktop Credentials and add them to the project at `\client_secrets.json`
    - Go to [console.cloud.google.com/apis/credentials](console.cloud.google.com/apis/credentials) and click on "Create Credentials" -> "OAuth client ID"
    - After credentials are created, download credentials file, rename it to "client_secrets.json", and place it in the root of the project.
-3) Run `main.py` script.
+3) Change `VOD_DIR` variable at the top of `main.py` file to the path of your video folder.
+4) Run `main.py` script.
