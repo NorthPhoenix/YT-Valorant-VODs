@@ -42,7 +42,7 @@ class ExceptionHistory(Exception):
 
 # Constants
 SCOPES = ["https://www.googleapis.com/auth/youtube"]
-CLIENT_SECRETS_FILE = "client_sectets.json"
+CLIENT_SECRETS_FILE = "client_secrets.json"
 
 API_SERVICE_NAME = "youtube"
 API_VERSION = "v3"
