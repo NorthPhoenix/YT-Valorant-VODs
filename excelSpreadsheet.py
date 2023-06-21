@@ -112,7 +112,7 @@ class ExcelSpreadsheet():
         for match in matches:
             sheet.append(match.asTuple())
             # Color in the match result cell
-            matchResultCell = sheet[sheet.max_row][ExcelMatchEntryOrder.matchResult]
+            matchResultCell = sheet[sheet.max_row][ExcelMatchEntryOrder.matchResult.value]
             if matchResultCell.value == "Win":
                 # Green background
                 matchResultCell.fill = PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid')
